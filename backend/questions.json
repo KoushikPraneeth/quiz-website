@@ -1,0 +1,803 @@
+{
+  "Sheet1": [
+    {
+      "Description": "Which of the following is not an essential component of Procurement Cycle",
+      "Option 1": "Determination of Requirement",
+      "Option 2": "Payment Releasing",
+      "Option 3": "Purchase Order processing",
+      "Option 4": "Goods Receipt",
+      "Correct_Answer": [2]
+    },
+    {
+      "Description": "In a Multinational Corporation there could be several company codes with several Purchasing Organisations. How can you minimise the effort for price condition maintenance  within such a group.",
+      "Option 1": "Use a reference Purchase Organisation.",
+      "Option 2": "Use a reference info record",
+      "Option 3": "Use a reference Purchasing Group",
+      "Option 4": "Use a reference comp code",
+      "Correct_Answer": [1]
+    },
+    {
+      "Description": "Which information regardingcontracts can you get directly from Analytical SAP Fiori App",
+      "Option 1": "Unapproved Contracts",
+      "Option 2": "Unused Contracts",
+      "Option 3": "Low value contracts",
+      "Option 4": "Expiring Contracts",
+      "Correct_Answer": [2, 4]
+    },
+    {
+      "Description": "In which of the following business transactions will you get an error if you have NOT set up Automatic Account Determination",
+      "Option 1": "Goods Receipt of a Valuated Material",
+      "Option 2": "Goods Issue of a Valuated material",
+      "Option 3": "Material Price Change",
+      "Option 4": "Good receipt of Consignment Stock",
+      "Option 5": "Stock transfer from storage location to another Storage Location.",
+      "Correct_Answer": [1, 2, 4]
+    },
+    {
+      "Description": "Which of the following occurs when you park a supplier Invoice related to a Purchase Order",
+      "Option 1": "An MM Invoice Document is created",
+      "Option 2": "An FI Invoice is posted and Blocked for payment",
+      "Option 3": "The Purchase Order History is updated",
+      "Option 4": "G/L account is updated",
+      "Correct_Answer": [1, 3]
+    },
+    {
+      "Description": "Which of the following types are controlled by Material Type",
+      "Option 1": "Whether the material Number assignment is internal or external",
+      "Option 2": "Which Procurement Type(s) the material can have",
+      "Option 3": "Whether Split valuation is allowedfor the material",
+      "Option 4": "whether batch Management is active for the material",
+      "Correct_Answer": [1, 2]
+    },
+    {
+      "Description": "What controls which Items Categories you are allowed to use when creating new items in a Purchasing document",
+      "Option 1": "Document Type",
+      "Option 2": "User Role",
+      "Option 3": "Document Category",
+      "Option 4": "Account Assignment Category",
+      "Correct_Answer": [1]
+    },
+    {
+      "Description": "Which of the following are valid sources of supplyin a source listin SAP Materials Management",
+      "Option 1": "Quota arrangement",
+      "Option 2": "Quotation",
+      "Option 3": "Procurement Plant",
+      "Option 4": "Contract",
+      "Correct_Answer": [3, 4]
+    },
+    {
+      "Description": "What replaces the goods receipt process in External Service Procurement within SAP Materials Management",
+      "Option 1": "Update tof Service Purchase Order History",
+      "Option 2": "Invoice Verification for Service Purchase Order",
+      "Option 3": "Creationof Service specification",
+      "Option 4": "Service Entry Sheet Creation and Aceeptance",
+      "Correct_Answer": [4]
+    },
+    {
+      "Description": "Which Transfer postings within a plant result in both a material Document and an Accounting document in SAP Materials Management",
+      "Option 1": "A Material -to-Material Transfer posting",
+      "Option 2": "A transfer posting from one Storage Location to another Storage Location",
+      "Option 3": "A Transfer Posting from Consignment Stock into own stock",
+      "Option 4": "A transfer posting from Quality Inspection Stock into Unrestricted-Use Stock",
+      "Correct_Answer": [1, 3]
+    },
+    {
+      "Description": "Which Organisational assignment must not be maintained when setting up a cross-comp code Purchasing Organisation",
+      "Option 1": "Plant - Purchase Group",
+      "Option 2": "Reference Purchase Organisation - Purchasing Organisation",
+      "Option 3": "Plant - Purchasing Organisation",
+      "Option 4": "Company Code - Purchasing Organisation ",
+      "Correct_Answer": [4]
+    },
+    {
+      "Description": "Can one plant be assigned to two different company codes?",
+      "Option 1": "Yes",
+      "Option 2": "No",
+      "Correct_Answer": [2]
+    },
+    {
+      "Description": "Where can you maintain purchasing Conditions in SAP Materials Management",
+      "Option 1": "Quota Arrangement",
+      "Option 2": "Purchase Requisition",
+      "Option 3": "Quotations",
+      "Option 4": "Info Record",
+      "Option 5": "Outline Agreement",
+      "Correct_Answer": [3, 4, 5]
+    },
+    {
+      "Description": "For which of the following objects can you use a standard movement type to post a goods issue directly from the valuated stock?  (Select any 3 options)",
+      "Option 1": "Profit center",
+      "Option 2": "Production order",
+      "Option 3": "Project (WBS element)",
+      "Option 4": "Cost center",
+      "Correct_Answer": [2, 3, 4]
+    },
+    {
+      "Description": "Which of the following are possible personalisation options of the SAP FIORI Launchpad",
+      "Option 1": "Settings for Language & region",
+      "Option 2": "Selection of Tile size",
+      "Option 3": "Selection of SAP Fiori Catalogue",
+      "Option 4": "Selection of the Design Theme",
+      "Correct_Answer": [1, 4]
+    },
+    {
+      "Description": "At what level do you maintain the Purchase Group in the Material Master",
+      "Option 1": "Client",
+      "Option 2": "Plant",
+      "Option 3": "Purchase Organization",
+      "Option 4": "Company Code",
+      "Correct_Answer": [2]
+    },
+    {
+      "Description": "State True or False:  One step Transfer postings can done between plants if the plants belong to different company codes.",
+      "Option 1": "true",
+      "Option 2": "false",
+      "Correct_Answer": [1]
+    },
+    {
+      "Description": "How do you proceed if you want to create Purchase Info Record for consumable materials without Material Master record",
+      "Option 1": "You specify a special info category",
+      "Option 2": "You specify the relationship between a Material Type and a Supplier",
+      "Option 3": "You must first create Materal Master Records",
+      "Option 4": "You specify the relationship between a Material Group and a Supplier",
+      "Correct_Answer": [4]
+    },
+    {
+      "Description": "When a procurement process is without a material master in Materials  Management, to which configuration element can you assign a Valuation Class",
+      "Option 1": "Valuation Area",
+      "Option 2": "item category",
+      "Option 3": "Material Group",
+      "Option 4": "Material Type",
+      "Correct_Answer": [3]
+    },
+    {
+      "Description": "Fill in the blanks:  Goods Issue can be done for ________ and _________.",
+      "Option 1": "Production order",
+      "Option 2": "Planned Order",
+      "Option 3": "Cost Center",
+      "Option 4": "Sales Order",
+      "Correct_Answer": [1, 3]
+    },
+    {
+      "Description": "To which objects can you assign an account assignment category in SAP Materials Management ",
+      "Option 1": "Partner Role",
+      "Option 2": "Master Data",
+      "Option 3": "Item Category",
+      "Option 4": "Document Type",
+      "Correct_Answer": [3]
+    },
+    {
+      "Description": "What can be triggered by a GR? (Select any 2 options)",
+      "Option 1": "Message Output",
+      "Option 2": "Message to Requester",
+      "Option 3": "Message to MRP Controller",
+      "Option 4": "GI print",
+      "Correct_Answer": [1, 3]
+    },
+    {
+      "Description": "Which Transaction Event Key get debited at the time of IV.",
+      "Option 1": "BSX",
+      "Option 2": "WRX",
+      "Option 3": "PRD",
+      "Option 4": "GBB",
+      "Correct_Answer": [2]
+    },
+    {
+      "Description": "What data can be entered in header of Invoice?(Select any 2 options)",
+      "Option 1": "Invoice amount",
+      "Option 2": "PO number",
+      "Option 3": "Calculate Tax",
+      "Option 4": "Bill of ladding number",
+      "Correct_Answer": [1, 3]
+    },
+    {
+      "Description": "Which account entries will be posted when IV done for non valuated material? (Select any 2 options)",
+      "Option 1": "GR/IR credited",
+      "Option 2": "Vendor account credited",
+      "Option 3": "Stock account credited",
+      "Option 4": "Consumption account debited",
+      "Correct_Answer": [2, 4]
+    },
+    {
+      "Description": "Where can you set Automatic Purchase Order Indicator in SAP Materials Management",
+      "Option 1": "Material Master",
+      "Option 2": "Info Record",
+      "Option 3": "Quota Arrangement",
+      "Option 4": "Vendor Master",
+      "Correct_Answer": [1, 4]
+    },
+    {
+      "Description": "How can you completely block a material for procurement in a plant",
+      "Option 1": "Create an entry in the Source List with a blocking indicator and a NO Supplier",
+      "Option 2": "Create a blocking entry in the Supplier Master Record",
+      "Option 3": "Create a Quota Arrangement entry with a quantity od zero",
+      "Option 4": "Use a relevant plant-specific material status in the material master",
+      "Correct_Answer": [1, 4]
+    },
+    {
+      "Description": "When you post invoice items without reference to purchase orders, in which of the methods is the posting not made to a GR/IR clearing account?",
+      "Option 1": "Posting directly to G/L account.",
+      "Option 2": "Posting directly to a material.",
+      "Correct_Answer": [1]
+    },
+    {
+      "Description": "In the enterprise structure assignment:",
+      "Option 1": "The plant must to be assigned both to a company code and purchasing organization.",
+      "Option 2": "The purchasing organization must be assigned to a company code and to a plant.",
+      "Option 3": "The purchasing organization can be assigned to several company codes.",
+      "Option 4": "One plant can be assigned to only one company code and only one purchasing organization.",
+      "Correct_Answer": [1]
+    },
+    {
+      "Description": "Which of the following Actionscan you run with transaction on MIGO",
+      "Option 1": "Cancel Material Document",
+      "Option 2": "Create Return Delivery",
+      "Option 3": "Enter physical Inventory count",
+      "Option 4": "Release GR Block Stock",
+      "Option 5": "Create Transfer order",
+      "Correct_Answer": [1, 2, 4]
+    },
+    {
+      "Description": "Which of the following assignments are possiblefor a Purchase Organization",
+      "Option 1": "One Purchase Organisation to multiple comp codes",
+      "Option 2": "Multiple Purchase Groups to one Purchase Organisation",
+      "Option 3": "One Pur Organisation to one Comp Code",
+      "Option 4": "Several plants from different comp codes to one Pur Organisation",
+      "Option 5": "Several plants from the same Comp Code to one Purchase Organisation.",
+      "Correct_Answer": [3, 4, 5]
+    },
+    {
+      "Description": "What must you consider when you define a Storage Location",
+      "Option 1": "A Storage Location always belongs to a plant",
+      "Option 2": "A storage location must be assigned to a WareHouse Number",
+      "Option 3": "The Storage Location Key must be unique within a plant",
+      "Option 4": "The Storage Location has the same address as the plant",
+      "Correct_Answer": [1, 3]
+    },
+    {
+      "Description": "Quantity & Value update can be done at which level?",
+      "Option 1": "Plant level",
+      "Option 2": "Company Code level",
+      "Option 3": "Purchasing Organizational Level",
+      "Option 4": "All of the above",
+      "Correct_Answer": [1]
+    },
+    {
+      "Description": "You are receiving deliveries for a valuated material. Which documents are created when you post a goods received.",
+      "Option 1": "Invoice document",
+      "Option 2": "Material document",
+      "Option 3": "Inbound document",
+      "Option 4": "Accounting document",
+      "Correct_Answer": [2, 4]
+    },
+    {
+      "Description": "Which of the following is Organizational element in SAP? (Select any 2 options)",
+      "Option 1": "Vendor",
+      "Option 2": "Material",
+      "Option 3": "Plant",
+      "Option 4": "Company code",
+      "Correct_Answer": [3, 4]
+    },
+    {
+      "Description": "What are some key features of the Goods-Receipt-Based (GR-Based) Invoice Verification",
+      "Option 1": "After posting, you can reassign invoces from onr Goods Receipt to another",
+      "Option 2": "Each Invoice itms is assigned to a goods receipt item",
+      "Option 3": "The system generates an invoice item for each Purchase Order item",
+      "Option 4": "As a pre-requisite, the indicatorfor GR-Based IV is set in the Purchase Order item ",
+      "Option 5": "A Goods Receipt must be posted prior to the invoice",
+      "Correct_Answer": [2, 4, 5]
+    },
+    {
+      "Description": "Which information regardingcontracts can you get directly from Analytical SAP Fiori App",
+      "Option 1": "Unapproved Contracts",
+      "Option 2": "Unused Contracts",
+      "Option 3": "Low value contracts",
+      "Option 4": "Expiring Contracts",
+      "Correct_Answer": [2, 4]
+    },
+    {
+      "Description": "Which of the following are possible personalisation options of the SAP FIORI Launchpad",
+      "Option 1": "Add new Tile groups",
+      "Option 2": "Add Tiles to existing Tile Group",
+      "Option 3": "Add new Catalogue",
+      "Option 4": "Add Tile Group to business roles",
+      "Correct_Answer": [1, 2]
+    },
+    {
+      "Description": "Account group determine the : (Select any 3 options)",
+      "Option 1": "field selection",
+      "Option 2": "Number Ranges",
+      "Option 3": "Partner schema",
+      "Option 4": "Vendor Currency",
+      "Correct_Answer": [1, 2, 3]
+    },
+    {
+      "Description": "You want to create a purchase order item for a non-valuated material. What must you do?",
+      "Option 1": "Select an account assignment category.",
+      "Option 2": "Set the indicator for non-valuated goods receipts.",
+      "Option 3": "Set the Goods Receipt indicator.",
+      "Option 4": "Set the Invoice Receipt indicator.",
+      "Correct_Answer": [1]
+    },
+    {
+      "Description": "Which of the following objects can you reference when you enter an invoice in Logistics Invoice Verification?  (Select any 3 options)",
+      "Option 1": "A material document",
+      "Option 2": "A vendor delivery note",
+      "Option 3": "A purchase order",
+      "Option 4": "A service entry sheet",
+      "Correct_Answer": [2, 3, 4]
+    },
+    {
+      "Description": "During the Goods Receipt for a Purchase Order of a material to be stocked, what determines which stock acoount is updated",
+      "Option 1": "Account Modifier",
+      "Option 2": "Condition record",
+      "Option 3": "Valuation Class",
+      "Option 4": "Price Control",
+      "Correct_Answer": [3]
+    },
+    {
+      "Description": "For automatic source determination what would be the sequence followed by the R/3 system to find the possible source of supply.",
+      "Option 1": "Source List, Quota Arrangement, Contract, Information Record.",
+      "Option 2": "Quota Arrangement, Contract, Information Record, Source List.",
+      "Option 3": "Quota Arrangement, Source List, Contract, Info Record.",
+      "Option 4": "Source List, Contract, Quota Arrangement, Information Record.",
+      "Correct_Answer": [3]
+    },
+    {
+      "Description": "For which type of Contracts can you use item Category Material Group (W)",
+      "Option 1": "Service Contract",
+      "Option 2": "Sales Contract",
+      "Option 3": "Value Contract",
+      "Option 4": "Quantity Contract",
+      "Correct_Answer": [3]
+    },
+    {
+      "Description": "In which master record we need to set the \"GR based Invoice\" tick so it will getting checked automatically while creating PO.",
+      "Option 1": "Vendor master",
+      "Option 2": "material master",
+      "Option 3": "customer master",
+      "Option 4": "info record",
+      "Correct_Answer": [1]
+    },
+    {
+      "Description": "What are some properties of the Organisation Structure for procurement",
+      "Option 1": "Several Storage Location may be assigned to a plant",
+      "Option 2": "A plant can be assigned to several clients",
+      "Option 3": "A storage Location Key must be unique in a company code",
+      "Option 4": "A plant can only belong to a comp code",
+      "Option 5": "A Storage Location can only belong to one plant",
+      "Correct_Answer": [1, 4, 5]
+    },
+    {
+      "Description": "What are the different types of SAP FIORI Applications",
+      "Option 1": "Responsive",
+      "Option 2": "Analytical",
+      "Option 3": "Role-based",
+      "Option 4": "Factsheet",
+      "Option 5": "Transactional",
+      "Correct_Answer": [2, 4, 5]
+    },
+    {
+      "Description": "Which of the following provides users direct access to SAP Fiori Apps",
+      "Option 1": "SAP Fiori Client",
+      "Option 2": "SAP Web IDE",
+      "Option 3": "SAP Fiori Apps reference Library",
+      "Option 4": "SAP Fiori Launchpad",
+      "Correct_Answer": [4]
+    },
+    {
+      "Description": "You want to prevent a specific material from being ordered from a specific vendor. What you must do",
+      "Option 1": "Create a blocking entry in the Purchasing Info Record",
+      "Option 2": "Create a Quota Arrangement entry with a quantity od zero",
+      "Option 3": "Create a blocking entry in the Vendor Master Record",
+      "Option 4": "Create an entry in the Source List with a blocking indicator",
+      "Correct_Answer": [4]
+    },
+    {
+      "Description": "Which Special Material Type attribute can you set for the material type in the SAP Implementation Guide",
+      "Option 1": "Material is Configurable",
+      "Option 2": "Price Control is mandatory",
+      "Option 3": "Material is consumable",
+      "Option 4": "Consignment is mandatory",
+      "Correct_Answer": [1]
+    },
+    {
+      "Description": "For which processes material Valuation at plant level mandatory in SAP Materials Management",
+      "Option 1": "Production Planning",
+      "Option 2": "Physical Inventory",
+      "Option 3": "Product Costing",
+      "Option 4": "Invoice Verification",
+      "Correct_Answer": [1, 3]
+    },
+    {
+      "Description": "Account assignment category \"U\" can be used in: (Select any 3 options)",
+      "Option 1": "Contract",
+      "Option 2": "Purchase requisition",
+      "Option 3": "Purchase order for external services",
+      "Option 4": "Blanket purchase order",
+      "Correct_Answer": [2, 3, 4]
+    },
+    {
+      "Description": "What information can the analytical Purchasing GroupActivities SAP Fiori app Provide",
+      "Option 1": "The number of Purchase Order created by a usersince the beginning of the current year",
+      "Option 2": "The net Purchased Value per purchasing Group and month of the current year",
+      "Option 3": "The number of Contracts createdby a Purchasing Group since the beginning of the current year",
+      "Option 4": "The number of Inspection Lots per purchasing Group and the month of the current year",
+      "Correct_Answer": [2, 3]
+    },
+    {
+      "Description": "To generate invoices automatically according to an invoicing plan, you must need to set the ERS indicator in?",
+      "Option 1": "Vendor master",
+      "Option 2": "Material master",
+      "Option 3": "In both vendor master & material master",
+      "Option 4": "While posting GRNs",
+      "Correct_Answer": [1]
+    },
+    {
+      "Description": "Validity period in a contract is at:",
+      "Option 1": "Item level",
+      "Option 2": "Header level",
+      "Option 3": "Can be maintained at both level.",
+      "Option 4": "Cannot be maintained at any of the above level.",
+      "Correct_Answer": [2]
+    },
+    {
+      "Description": "Regular vendor indicator is set in:",
+      "Option 1": "Vendor master",
+      "Option 2": "Info record",
+      "Option 3": "Source list",
+      "Option 4": "Quota Arrangement",
+      "Correct_Answer": [2]
+    },
+    {
+      "Description": "You have ordered a stock material that is valuated with a Standard Price. The price in the Purchase Order (PO) is higher than the Standard Price of the material. Which Accounts are updated at Goods Receipt",
+      "Option 1": "Material Consumption Account",
+      "Option 2": "GR/IR Clearing Account",
+      "Option 3": "Price Difference Account",
+      "Option 4": "Stock Account",
+      "Option 5": "Inventory Difference Account",
+      "Correct_Answer": [2, 3, 4]
+    },
+    {
+      "Description": "What does the material type influence in the material master in SAP Materials Management? (Select any 2 options)",
+      "Option 1": "Quantity and value update",
+      "Option 2": "Account group",
+      "Option 3": "Procurement type",
+      "Option 4": "MRP type",
+      "Correct_Answer": [1, 3]
+    },
+    {
+      "Description": "Which of the following are SAP Fiori Design Principles",
+      "Option 1": "Simple",
+      "Option 2": "Coherent",
+      "Option 3": "Comprehensive",
+      "Option 4": "Logical",
+      "Correct_Answer": [1]
+    },
+    {
+      "Description": "You want to manually post an initial entry of stock for a material in SAP S4 Hanan. You should be able to enter both a quantity and an amount. How do you proceed.",
+      "Option 1": "On the FIORI Launchpad, Use the stock single material app",
+      "Option 2": "On the FIORI Launchpad, use the post Goods Movement app",
+      "Option 3": "In the SAP GUI, use Transaction MIGO",
+      "Option 4": "On the FIORI Launchpad, use the post Goods Receipt without reference app.",
+      "Correct_Answer": [2, 3]
+    },
+    {
+      "Description": "You convert a purchase requisition to a purchase order.  What can you assign to the purchase requisition to be used as a source of supply in SAP MM? (Select any 2 options)",
+      "Option 1": "Quota arrangement",
+      "Option 2": "Info record",
+      "Option 3": "Desired vendor",
+      "Option 4": "Contract",
+      "Correct_Answer": [2, 4]
+    },
+    {
+      "Description": "Which indicators do you set to allow evaluated receipt settlement in SAP Materials Management? (Select any 2 options)",
+      "Option 1": "Auto-generation of purchase order at time of goods receipt in the movement type.",
+      "Option 2": "Automatic purchase order in the vendor master.",
+      "Option 3": "Automatic settlement of goods received in the vendor.",
+      "Option 4": "Goods receipt based invoice verification in the purchase order.",
+      "Correct_Answer": [3, 4]
+    },
+    {
+      "Description": "What setting is defined with a movement type in SAP Materials Management?",
+      "Option 1": "Count group",
+      "Option 2": "Account modification",
+      "Option 3": "Valuation area",
+      "Option 4": "Valuation class",
+      "Correct_Answer": [2]
+    },
+    {
+      "Description": "What does the item category specify in a purchasing document in SAP Materials Management?",
+      "Option 1": "Whether items with unlimited deliveries are possible.",
+      "Option 2": "Whether items without a material number are possible.",
+      "Option 3": "Whether items with order acknowledgment are possible.",
+      "Option 4": "Whether items without valuation are possible.",
+      "Correct_Answer": [2]
+    },
+    {
+      "Description": "Manage Purchase Order Fiori app is:",
+      "Option 1": "Gui App",
+      "Option 2": "Transaction App",
+      "Option 3": "Analytical App",
+      "Option 4": "Factsheet",
+      "Correct_Answer": [2]
+    },
+    {
+      "Description": "At the time of Performimg Physical Inventory if you want to block the enteris then which tick mark is useful to meet requirement.",
+      "Option 1": "Freeze Book Inventory",
+      "Option 2": "Posting Block",
+      "Option 3": "Inventory Block",
+      "Option 4": "Stock Block",
+      "Correct_Answer": [2]
+    },
+    {
+      "Description": "Which material master views must be defined in SAP Materials Management before you buy a valued material for receipt into stock?(Select any 2 options)",
+      "Option 1": "Purchasing",
+      "Option 2": "Accounting",
+      "Option 3": "Storage",
+      "Option 4": "Costing",
+      "Correct_Answer": [1, 2]
+    },
+    {
+      "Description": "In SAP S/4HANA, which views exist for material type SERV? (Select any 3 options)",
+      "Option 1": "Purchasing",
+      "Option 2": "Quality Management",
+      "Option 3": "Accounting",
+      "Option 4": "Sales",
+      "Correct_Answer": [1, 3, 4]
+    },
+    {
+      "Description": "What are benefits of self-service requisitioning? (Select any 2 options)",
+      "Option 1": "Reduced procurement costs.",
+      "Option 2": "Increased no-touch rate for purchase orders.",
+      "Option 3": "Integrated update function for material master data.",
+      "Option 4": "Decreased number of purchase contracts.",
+      "Correct_Answer": [1, 2]
+    },
+    {
+      "Description": "Which options are available for the automatic posting of unplanned delivery costs when creating an invoice with Purchse Order reference",
+      "Option 1": "The costs are posted to a separate account, which is defined in the account determination table",
+      "Option 2": "The system determines a freight clearing account for posting the cost",
+      "Option 3": "The costs are distributed among the invoiced items",
+      "Option 4": "The costs are posted automatically in a separate invoice.",
+      "Correct_Answer": [1, 3]
+    },
+    {
+      "Description": "Which of the following reflect SAP Fiori design? (Select any 3 options)",
+      "Option 1": "Interaction patterns",
+      "Option 2": "Information architecture",
+      "Option 3": "Unified user interface design",
+      "Option 4": "Visual design",
+      "Option 5": "Design Thinking Methodology",
+      "Correct_Answer": [1, 2, 4]
+    },
+    {
+      "Description": "You have ordered 100 units of a material with a tolerance limit of 5% variances on either side.  You have received 97 units of the material and you have activated the \"delivery completed\" indicator.  7 Units were rejected and returned back to the vendor. How does the system behave? (Select any 2 options)",
+      "Option 1": "The system cancels the 'delivery completed' indicator.",
+      "Option 2": "The system does not cancel the 'delivery completed' indicator.",
+      "Option 3": "The system permits you to reset the 'delivery completed' indicator.",
+      "Option 4": "The system will automatically change the 'delivery completed' indicator again if you receive the replacement for the 7 units rejected.",
+      "Correct_Answer": [1, 3]
+    },
+    {
+      "Description": "What Must you remember when you define a Purchasing Organisation in SAP Mat Management",
+      "Option 1": "A Purchasing Organisation is a selection Criteria for lists of all purchasing Documents",
+      "Option 2": "All Purchasing Groups are asigned to a Specific Purchase Organisation",
+      "Option 3": "The Purchasing Organisation is the highest summation level for Purchasing.",
+      "Option 4": "Each Purchase Organisation has its own Purchasing info record and conditions for price determination",
+      "Correct_Answer": [1, 3, 4]
+    },
+    {
+      "Description": "What Logic does the system use during PO creation to proposea valid price when using an info record",
+      "Option 1": "The system always proposed the price stored at Purchasing Organisation level, if available",
+      "Option 2": "The system always proposesthe price from the last PO whose number was copied into the info record",
+      "Option 3": "If a valid plant-specific price exist, it is proposed when a PO is created for the corresponding plant",
+      "Option 4": "If there is no valid conditions maintained in the info record, the system can propose the price from the last PO.",
+      "Correct_Answer": [3, 4]
+    },
+    {
+      "Description": "Which of the following actions are supported when you post a goods Receipt to stock with reference to a Purchase Order",
+      "Option 1": "Split the quantity received to multiple storage Locations",
+      "Option 2": "Adjust Order Quantity to received Quantity",
+      "Option 3": "Post partial Order quantity",
+      "Option 4": "Maintain a Valuation Price",
+      "Correct_Answer": [1, 3]
+    },
+    {
+      "Description": "Which Business Partner Categoriescan you choosewhen creating a new Business Partner",
+      "Option 1": "Supplier",
+      "Option 2": "Organisation",
+      "Option 3": "Person",
+      "Option 4": "Group",
+      "Option 5": "Customer",
+      "Correct_Answer": [2, 3, 4]
+    },
+    {
+      "Description": "Supplier A should automatically be proposed as primary source for a specific material. What option do you have",
+      "Option 1": "Use Regular Supplier indicator in the material master record",
+      "Option 2": "Set Regular Supplier Indicator in the Business Partner Master Record",
+      "Option 3": "Use the Regular Supplier Indicator in the Info Record",
+      "Option 4": "Use the Source List  and mark the Vendor as Fixed",
+      "Correct_Answer": [3, 4]
+    },
+    {
+      "Description": "Which Purchasing Organisation assignments can you make in customising for the enterprise Structure",
+      "Option 1": "Several Purchasing Organisation to a company code",
+      "Option 2": "Several Purchasing organisation to a Purchasing Group",
+      "Option 3": "One Purchasing Organisation to several Comp Codes",
+      "Option 4": "One Purchasing Organisation to one Comp Code",
+      "Option 5": "One Purchasing Organisation to Several Plants asross Comp Codes",
+      "Correct_Answer": [1, 4, 5]
+    },
+    {
+      "Description": "State True or False:  When GR is post with movement type 103 then system created Accounting document.",
+      "Option 1": "true",
+      "Option 2": "false",
+      "Correct_Answer": [2]
+    },
+    {
+      "Description": "From where does the system pick the default quantity of an item when you post invoice receipt?",
+      "Option 1": "Invoice",
+      "Option 2": "Purchase order",
+      "Option 3": "Purchase order history",
+      "Option 4": "System settings",
+      "Correct_Answer": [3]
+    },
+    {
+      "Description": "What are the tasks of invoice verification? (Select any 2 options)",
+      "Option 1": "Entering invoices and posting credit memo",
+      "Option 2": "Executing Good receipt.",
+      "Option 3": "Executing the account posting resulting from invoice.",
+      "Option 4": "Making Payment",
+      "Correct_Answer": [1, 3]
+    },
+    {
+      "Description": "Which acount will be credited at the time of GRN (with reference to PO)",
+      "Option 1": "Stock A/c",
+      "Option 2": "Consumption A/c",
+      "Option 3": "Vendor A/c",
+      "Option 4": "GR/IR Clearing A/c",
+      "Correct_Answer": [4]
+    },
+    {
+      "Description": "Which of the following document types can you use for automatic sourcing within SAP Materials Management",
+      "Option 1": "Contract",
+      "Option 2": "Purchase Requisition ",
+      "Option 3": "Scheduling Agreement",
+      "Option 4": "Request for Quotation",
+      "Correct_Answer": [2]
+    },
+    {
+      "Description": "Kindly choose the correct movment type which is used for Return PO. (Select any 2 Options)",
+      "Option 1": 101,
+      "Option 2": 161,
+      "Option 3": 122,
+      "Option 4": 561,
+      "Correct_Answer": [2, 3]
+    },
+    {
+      "Description": "Which Organosational assignments mandatory for external Procurement ?",
+      "Option 1": "Plant - Purchasing Group",
+      "Option 2": "Comp Code - Purchasing Organisation",
+      "Option 3": "Plant - Purchasing Organisation",
+      "Option 4": "Reference Purchasing Organisation - Purchasing Organisation",
+      "Correct_Answer": [3]
+    },
+    {
+      "Description": "In Invoice Verification, the invoicing party can be changed. This is avalable in which of the following Tab",
+      "Option 1": "The Basic Data Tab",
+      "Option 2": "The Detail Tab",
+      "Option 3": "The Payment Tab",
+      "Option 4": " Not possible to change",
+      "Correct_Answer": [2]
+    },
+    {
+      "Description": "Your Project requires individual Purchasing Organisation for each plant in your comp code. What should you take into consideration when setting up such an organisation structure",
+      "Option 1": "Each Purchasing Organisation has its own Info Record",
+      "Option 2": "Each Purchasing Organisation has its own Vendor record",
+      "Option 3": "Each Purchasing Organisation has its own Purchasing Group ",
+      "Option 4": "Each Purchasing Organisation has its own Material Master Data ",
+      "Correct_Answer": [1, 2]
+    },
+    {
+      "Description": "What can a purchase do in the Manage Purchase Requisition SAP Fiori App",
+      "Option 1": "Approve a Purchase Requisition",
+      "Option 2": "Create a Purchase Order",
+      "Option 3": "Initiate Sourcing",
+      "Option 4": "Initiate Contracting",
+      "Correct_Answer": [1, 2]
+    },
+    {
+      "Description": "How does Fiori App achieve the role-based design principle",
+      "Option 1": "Simple complex transactions are decomposed into several discrete apps suited to the user roles",
+      "Option 2": "Navigation, personalisation, and application configuration are limited to ensure consistency across user roles",
+      "Option 3": "The application interface adapts to the size and device used by the user.",
+      "Option 4": "End user gets all the information and functions they need for their daily work, but nothing more.",
+      "Correct_Answer": [1, 4]
+    },
+    {
+      "Description": "What are some of the SAP Fiori user types",
+      "Option 1": "Occassional",
+      "Option 2": "Developer",
+      "Option 3": "Employee",
+      "Option 4": "Business Partner",
+      "Option 5": "Expert",
+      "Correct_Answer": [1, 2, 5]
+    },
+    {
+      "Description": "Goods from a supplier arrived at your warehouse . However, you do NOT want these goods to be part of your inventory. What is the procedure for recording the conditional Goods Receipt",
+      "Option 1": "Post a Goods Receipt to a Non-Valuated GR Blocked Stock",
+      "Option 2": "Select the Block Stock Type when posting the Goods Receipt",
+      "Option 3": "Make a note of the Purchase Order and wait until the conditions for accepting the delivery are met",
+      "Option 4": "Post a goods receipt to a Valuated GR Block stock",
+      "Correct_Answer": [1]
+    },
+    {
+      "Description": "To which objects can you assign a field reference in SAP Materials Management ",
+      "Option 1": "Comp Code",
+      "Option 2": "Industry Sector",
+      "Option 3": "MRP Area",
+      "Option 4": "Plant",
+      "Correct_Answer": [2, 4]
+    },
+    {
+      "Description": "What you can control with a Document Type in Purchasing",
+      "Option 1": "Allowed Account Assignment Categories",
+      "Option 2": "Allowed Item Categories",
+      "Option 3": "Linked to Material groups",
+      "Option 4": "Linkages of Document Types",
+      "Option 5": "Number Range",
+      "Correct_Answer": [2, 4, 5]
+    },
+    {
+      "Description": "A certain field in the Material Master must be maintained as a mandatory entry during initial creation. Which of the following factors influence the field selection.",
+      "Option 1": "Procurement Type",
+      "Option 2": "Transaction Code",
+      "Option 3": "Material Type",
+      "Option 4": "Purchasing Group",
+      "Option 5": "Company Code",
+      "Correct_Answer": [1, 2, 3]
+    },
+    {
+      "Description": "Which of the following are characteristics of the Hold function for Purchase Orders",
+      "Option 1": "it allows any kind of error in a document",
+      "Option 2": "it triggers a workflow to request completion of the document",
+      "Option 3": "it is supported for blanket Purchase Orders",
+      "Option 4": "It disallows follow-on activities",
+      "Correct_Answer": [1, 4]
+    },
+    {
+      "Description": "To which Stock Types can you post a goods receipt without referenceing a Purchase Order or a Production Order",
+      "Option 1": "Unrestricted-use stock",
+      "Option 2": "Blocked Stock",
+      "Option 3": "Valuated GR Blocked stock",
+      "Option 4": "Quality Inspection Stock",
+      "Option 5": "Non-Valuated GR Blocked Stock",
+      "Correct_Answer": [1, 2, 4]
+    },
+    {
+      "Description": "Which Item Category must you use for Subcontracting",
+      "Option 1": "Item Category D",
+      "Option 2": "Item Category W",
+      "Option 3": "Item Category K",
+      "Option 4": "Item Category L",
+      "Correct_Answer": [4]
+    },
+    {
+      "Description": "Which of the following Goods Issues update the consumption in SAP Materials Management",
+      "Option 1": "Cost Center",
+      "Option 2": "Scrapping",
+      "Option 3": "Random Sampling",
+      "Option 4": "Production Order",
+      "Correct_Answer": [1]
+    },
+    {
+      "Description": "What happens when you post a logistics Invoice for a Purchase Order that you have receivedin the system",
+      "Option 1": "The payment is posted against open liabilities",
+      "Option 2": "The Purchase Order History gets updated",
+      "Option 3": "The accounting documents are created",
+      "Option 4": "Open liabilities are evaluated.",
+      "Correct_Answer": [2, 3]
+    }
+  ]
+}
