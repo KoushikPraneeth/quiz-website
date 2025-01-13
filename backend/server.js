@@ -27,6 +27,14 @@ app.get('/api/questions', (req, res) => {
   res.json(questions);
 });
 
+// Serve static files from React app
+app.use(express.static('/Users/praneethkoushik/quiz-website/frontend/build'));
+
+// Handle React routing, return all requests to React app
+app.get('*', (req, res) => {
+  res.sendFile('/Users/praneethkoushik/quiz-website/frontend/build/index.html');
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
