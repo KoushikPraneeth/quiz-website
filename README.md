@@ -49,22 +49,6 @@ npm start
 http://localhost:5001
 ```
 
-## API Documentation
-
-### GET /api/questions
-Returns all quiz questions
-
-**Response:**
-```json
-[
-  {
-    "question": "What is the capital of France?",
-    "options": ["Paris", "London", "Berlin", "Madrid"],
-    "answer": "Paris"
-  }
-]
-```
-
 ## Development
 
 To run the frontend in development mode:
