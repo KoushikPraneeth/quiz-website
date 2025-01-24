@@ -1,6 +1,6 @@
 # Quiz Website
 
-A full-stack quiz application with React frontend and Node.js/Express backend.
+A full-stack quiz application with React frontend and Node.js/Express backend. Add your own questions in json format.
 
 ## Project Structure
 
